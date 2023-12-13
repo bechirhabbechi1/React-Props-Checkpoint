@@ -1,0 +1,29 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.appcontrainer{
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    margin: 20px;
+}
+.playerList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 200px;
+}
+.playercard{
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #7e6f6f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
